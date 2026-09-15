@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>FER202 - Exercise 5</title>
+  
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  
+  <style>
+    /* CSS hỗ trợ hiển thị khung ô Bài 1 và Bài 3 */
+    .grid-box { 
+      background-color: #d3d3d3; 
+      border: 1px solid #777; 
+      padding: 10px; 
+    }
+    .exercise-divider {
+      margin: 60px 0;
+      border-top: 5px dashed #007bff;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ========================================== -->
+  <!-- EXERCISE 1: Let's test the grid!          -->
+  <!-- ========================================== -->
+  <section id="exercise1">
+    <div class="container-fluid p-0">
+      <div class="bg-light p-4 mb-4">
+        <h1>Let's test the grid!</h1>
+      </div>
+      <div class="container">
+        <!-- Hàng 1: 2 cột -->
+        <div class="row g-0">
+          <div class="col-6 grid-box">First col</div>
+          <div class="col-6 grid-box">Second col</div>
+        </div>
+        <!-- Hàng 2: 3 cột -->
+        <div class="row g-0">
+          <div class="col-4 grid-box">col</div>
+          <div class="col-4 grid-box">col</div>
+          <div class="col-4 grid-box">col</div>
+        </div>
+        <!-- Hàng 3: 4 cột -->
+        <div class="row g-0">
+          <div class="col-3 grid-box">col</div>
+          <div class="col-3 grid-box">col</div>
+          <div class="col-3 grid-box">col</div>
+          <div class="col-3 grid-box">col</div>
+        </div>
+      </div>
+      <footer class="text-center p-3 mt-4" style="background-color: #dcd0d0;">
+        <h2>Created by ABC!</h2>
+      </footer>
+    </div>
+  </section>
+
+  <hr class="exercise-divider">
+
+  <!-- ========================================== -->
+  <!-- EXERCISE 2: My First Bootstrap Page        -->
+  <!-- ========================================== -->
+  <section id="exercise2">
+    <div class="bg-light text-center py-4 mb-5">
+      <h2>My First Bootstrap Page</h2>
+    </div>
+    <div class="container">
+      <div class="row text-center align-items-center">
+        <div class="col-4">
+          <img src="https://via.placeholder.com/150?text=HTML5" alt="HTML5" class="img-fluid" style="max-height: 150px;">
+        </div>
+        <div class="col-4">
+          <img src="https://via.placeholder.com/150?text=CSS3" alt="CSS3" class="img-fluid" style="max-height: 150px;">
+        </div>
+        <div class="col-4">
+          <img src="https://via.placeholder.com/150?text=Bootstrap" alt="Bootstrap" class="img-fluid" style="max-height: 150px;">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="exercise-divider">
+
+  <!-- ========================================== -->
+  <!-- EXERCISE 3: Grid with Navigation           -->
+  <!-- ========================================== -->
+  <section id="exercise3">
+    <div class="container-fluid p-0">
+      <div class="bg-light p-4 mb-3">
+        <h1>Let's test the grid!</h1>
+      </div>
+      
+      <div class="container mb-3">
+        <ul class="nav">
+          <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+          <li class="nav-item"><a class="nav-link disabled" href="#">Disabled</a></li>
+        </ul>
+      </div>
+
+      <div class="container">
+        <!-- Hàng 1 -->
+        <div class="row g-0">
+          <div class="col-6 grid-box">First col</div>
+          <div class="col-6 grid-box">Second col</div>
+        </div>
+        <!-- Hàng 2 -->
+        <div class="row g-0">
+          <div class="col-4 grid-box">col</div>
+          <div class="col-4 grid-box">col</div>
+          <div class="col-4 grid-box">col</div>
+        </div>
+        <!-- Hàng 3 -->
+        <div class="row g-0">
+          <div class="col-3 grid-box">col</div>
+          <div class="col-3 grid-box">col</div>
+          <div class="col-3 grid-box">col</div>
+          <div class="col-3 grid-box">col</div>
+        </div>
+      </div>
+      <footer class="text-center p-3 mt-4" style="background-color: #dcd0d0;">
+        <h2>Created by ABC!</h2>
+      </footer>
+    </div>
+  </section>
+
+  <hr class="exercise-divider">
+
+  <!-- ========================================== -->
+  <!-- EXERCISE 4: FPT University Page            -->
+  <!-- ========================================== -->
+  <section id="exercise4">
+    <div class="text-white text-center py-4" style="background-color: #e67e22;">
+      <div class="bg-white d-inline-block p-2 mb-2 rounded">
+        <h3 class="m-0 text-primary fw-bold">FPT <span class="text-warning">Education</span></h3>
+        <h4 class="m-0 text-danger fw-bold">FPT UNIVERSITY</h4>
+      </div>
+      <nav class="nav justify-content-center">
+        <a class="nav-link text-white" href="#">Home</a>
+        <a class="nav-link text-white" href="#">About</a>
+        <a class="nav-link text-white" href="#">Contact</a>
+      </nav>
+    </div>
+
+    <div class="container text-center my-5">
+      <h3>About</h3>
+      <p class="text-muted">This is the about section of the website.</p>
+      
+      <h3 class="mt-4">Contact</h3>
+      <p class="text-muted">For any inquiries, please contact us at example@example.com.</p>
+    </div>
+
+    <footer class="text-center py-3 text-white" style="background-color: #f39c12;">
+      <p class="m-0">&copy; 2023 Website. All rights reserved.</p>
+    </footer>
+  </section>
+
+  <hr class="exercise-divider">
+
+  <!-- ========================================== -->
+  <!-- EXERCISE 5: Students Detail Page           -->
+  <!-- ========================================== -->
+  <section id="exercise5">
+    <!-- Navbar Top -->
+    <nav class="navbar navbar-expand-lg bg-warning-subtle px-4">
+      <a class="navbar-brand fw-bold text-danger" href="#">FPT University</a>
+      <div class="navbar-nav me-auto">
+        <a class="nav-link" href="#">Trang chủ</a>
+        <a class="nav-link" href="#">Ngành học</a>
+        <a class="nav-link" href="#">Tuyển sinh</a>
+        <a class="nav-link" href="#">Sinh viên</a>
+      </div>
+      <form class="d-flex align-items-center">
+        <span class="me-2 fw-semibold">Search:</span>
+        <input class="form-control form-control-sm" type="search">
+      </form>
+    </nav>
+
+    <!-- Header Banner Image -->
+    <div class="p-3 text-center" style="background-color: #e67e22;">
+      <img src="https://via.placeholder.com/800x300?text=FPT+Students+Banner" class="img-fluid rounded" alt="Banner">
+    </div>
+
+    <!-- Main Content -->
+    <div class="container my-4">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item active">Students</li>
+        </ol>
+      </nav>
+
+      <h2 class="text-center mb-4">Students Detail</h2>
+
+      <div class="row g-4">
+        <!-- Student 1 -->
+        <div class="col-md-6">
+          <div class="card text-center">
+            <img src="https://via.placeholder.com/300x300?text=Student+1" class="card-img-top" alt="Student">
+            <div class="card-body">
+              <p class="card-text fw-bold mb-1">DE160182</p>
+              <div class="d-flex justify-content-between px-3">
+                <span>Nguyễn Hữu Quốc Khánh</span>
+                <span>DaNang</span>
+              </div>
+              <div class="mt-2">
+                <input type="radio" name="att1" id="absent1"> <label for="absent1">Absent</label>
+                <input type="radio" name="att1" id="present1" class="ms-3"> <label for="present1">Present</label>
+              </div>
+              <button class="btn btn-warning text-white mt-3 btn-sm px-4">Submit</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Student 2 -->
+        <div class="col-md-6">
+          <div class="card text-center">
+            <img src="https://via.placeholder.com/300x300?text=Student+2" class="card-img-top" alt="Student">
+            <div class="card-body">
+              <p class="card-text fw-bold mb-1">DE160377</p>
+              <div class="d-flex justify-content-between px-3">
+                <span>Choy Vĩnh Thiện</span>
+                <span>QuangNam</span>
+              </div>
+              <div class="mt-2">
+                <input type="radio" name="att2" id="absent2"> <label for="absent2">Absent</label>
+                <input type="radio" name="att2" id="present2" class="ms-3"> <label for="present2">Present</label>
+              </div>
+              <button class="btn btn-warning text-white mt-3 btn-sm px-4">Submit</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Student 3 -->
+        <div class="col-md-6">
+          <div class="card text-center">
+            <img src="https://via.placeholder.com/300x300?text=Student+3" class="card-img-top" alt="Student">
+            <div class="card-body">
+              <p class="card-text fw-bold mb-1">DE160547</p>
+              <div class="d-flex justify-content-between px-3">
+                <span>Đỗ Nguyên Phúc</span>
+                <span>QuangNam</span>
+              </div>
+              <div class="mt-2">
+                <input type="radio" name="att3" id="absent3"> <label for="absent3">Absent</label>
+                <input type="radio" name="att3" id="present3" class="ms-3"> <label for="present3">Present</label>
+              </div>
+              <button class="btn btn-warning text-white mt-3 btn-sm px-4">Submit</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Student 4 -->
+        <div class="col-md-6">
+          <div class="card text-center">
+            <img src="https://via.placeholder.com/300x300?text=Student+4" class="card-img-top" alt="Student">
+            <div class="card-body">
+              <p class="card-text fw-bold mb-1">DE170049</p>
+              <div class="d-flex justify-content-between px-3">
+                <span>Lê Hoàng Minh</span>
+                <span>DaNang</span>
+              </div>
+              <div class="mt-2">
+                <input type="radio" name="att4" id="absent4"> <label for="absent4">Absent</label>
+                <input type="radio" name="att4" id="present4" class="ms-3"> <label for="present4">Present</label>
+              </div>
+              <button class="btn btn-warning text-white mt-3 btn-sm px-4">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="p-4 text-white" style="background-color: #e67e22;">
+      <div class="container">
+        <h5>Our Address</h5>
+        <p class="small mb-1">Khu đô thị FPT Đà Nẵng</p>
+        <p class="small mb-1">+84023111111</p>
+        <p class="small mb-0">fptudn@fpt.edu.vn</p>
+      </div>
+      <div class="text-center mt-3 pt-3 border-top border-light">
+        <p class="small m-0">&copy; Copyright 2023</p>
+      </div>
+    </footer>
+  </section>
+
+  <!-- JS Dependencies -->
+  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
